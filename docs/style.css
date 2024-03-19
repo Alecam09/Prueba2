@@ -92,7 +92,7 @@ button {
 }
 
 body {
-    background-image: url('Imágenes/Fondoencriptado.jpeg');
+    background-image: url('Fondoencriptado.jpeg');
     background-size: cover; /* Para cubrir todo el fondo */
     background-repeat: no-repeat; /* Para que la imagen no se repita */
     background-attachment: fixed; /* Para que la imagen no se desplace al hacer scroll */
