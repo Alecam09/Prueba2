@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+label, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.opciones {
+    margin-bottom: 10px;
+}
+
+button {
+    
+    margin-bottom: 100px;
+    border-radius: 1px;
+  
+}
+
+.opciones {
+    display: flex; /* Utiliza flexbox */
+}
+
+.encriptar, .desencriptar {
+    padding: 10px 20px; /* Ajusta el relleno según sea necesario */
+    margin-right: 10px; /* Espacio entre los botones */
+}
+
+.encriptar {
+    background-color: rgb(32, 32, 128);
+    color: white;
+    padding: 10px 10px;
+    border: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px; /* Ancho del botón */
+    height: 20px
+
+}
+
+.desencriptar {
+    background-color: white;
+    color: rgb(32, 32, 128);
+    padding: 10px 10px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px; /* Ancho del botón */
+    height: 20px
+  
+}
+
+
+.encriptar:hover, .desencriptar:hover {
+    opacity: 0.8;
+}
+
+.ejecutar,
+.copiar {
+    background-color: rgb(32, 32, 128); /* Fondo azul similar */
+    color: white; /* Texto blanco */
+    padding: 10px 20px; /* Padding interno */
+    border: 1px solid rgb(89, 89, 186); /* Borde similar */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor apuntador */
+    width: 150px; /* Ancho del botón */
+}
+
+.ejecutar:hover,
+.copiar:hover {
+    opacity: 0.8; /* Opacidad al pasar el mouse */
+}
+
+.container {
+    margin-left: 300px; /* Ajusta el margen izquierdo según sea necesario */
+}
+
+h1,
+label,
+textarea,
+.opciones,
+button {
+    margin-bottom: 40px; /* Agrega un margen inferior a todos los elementos */
+}
+
+.encriptar,
+.desencriptar,
+.ejecutar,
+.copiar {
+    margin-right: 100px; /* Agrega un margen derecho a los botones */
+}
+
+body {
+    background-image: url('Imágenes/Fondoencriptado.jpeg');
+    background-size: cover; /* Para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Para que la imagen no se repita */
+    background-attachment: fixed; /* Para que la imagen no se desplace al hacer scroll */
+}
+
+
+label[for="texto"] {
+    font-family: Arial, sans-serif; /* Cambia la fuente del texto a Arial */
+    color: white; /* Cambia el color del texto a blanco */
+    font-size: 30px
+    
+}
+
+h1 {
+    text-align: center; /* Centra el texto horizontalmente */
+    color: white; /* Cambia el color del texto a blanco */
+    -webkit-text-stroke: 1px black;
+   
+    padding: 10px; /* Agrega espacio interno alrededor del texto */
+    width: fit-content; /* Ajusta el ancho del título al contenido */
+    margin: 0 auto; /* Centra el título horizontalmente */
+}
+label[for="texto2"] {
+    font-family: Arial, sans-serif; /* Cambia la fuente del texto a Arial */
+    color: white; /* Cambia el color del texto a blanco */
+    font-size: 15px
+    
+}
+
+img{
+    position: absolute;
+    top: 100px; /* Ajusta la posición vertical según sea necesario */
+    left: 50px; /* Ajusta la posición horizontal según sea necesario */
+    width: 200px; /* Ajusta el ancho de la imagen según sea necesario */
+    height: auto; /* Manten el aspecto de la imagen */
+
+}
